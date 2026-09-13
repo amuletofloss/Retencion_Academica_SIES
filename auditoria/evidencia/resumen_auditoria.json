@@ -1,0 +1,21 @@
+{
+  "audit_version": "3.1.0",
+  "data_cutoff": "matrícula 2025 / titulados 2024",
+  "data_directory": "datos",
+  "controls": 4955,
+  "passed": 4955,
+  "failed": 0,
+  "valid_cohort_horizon_cells": 120,
+  "dimensions_reconciled": [
+    "TipoInstitucion",
+    "Institucion",
+    "Carrera",
+    "Nivel",
+    "Area",
+    "ModalidadOrigen",
+    "JornadaOrigen",
+    "AmbitoFlexible",
+    "GrupoECS"
+  ],
+  "source_hash": "D747545DF51AE0E16B6CF4DA211D3BEF69541F29199636B7E45308F5E8E1D447"
+}

@@ -1,0 +1,74 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 50,
+            "y": 148.35381557406663
+          },
+          "nodeIndex": "Cohortes",
+          "nodeLineageTag": "a65d6fe2-7f3d-4c5d-8832-182127b5e91e",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 510.52702501711178,
+            "y": 656.503646228153
+          },
+          "nodeIndex": "Horizontes",
+          "nodeLineageTag": "2e62c56f-4574-4f52-8dbb-7373ab7c641b",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 459.51534683345818,
+            "y": -50
+          },
+          "nodeIndex": "Programas",
+          "nodeLineageTag": "978bdc64-1601-41b5-bd98-b5d92413b805",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 313.59395273754672,
+            "y": 303.69761159687505
+          },
+          "nodeIndex": "Seguimiento",
+          "nodeLineageTag": "15a19ae2-399a-4102-9c96-d45c630f84cd",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "Todas las tablas",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Todas las tablas",
+  "defaultDiagram": "Todas las tablas"
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Retencion_Academica_SIES",
+  "version": "3.1.0",
+  "dataCutoff": "matrícula 2025 / titulados 2024",
+  "pages": [
+    {
+      "id": "c684c21f43d332708e87",
+      "label": "Resumen nacional"
+    },
+    {
+      "id": "f6fdeecbc23c4ca758c7",
+      "label": "Cohortes"
+    },
+    {
+      "id": "37abf87137dd5115b1cb",
+      "label": "Instituciones"
+    },
+    {
+      "id": "df89cfe9ca9aeeecc3a5",
+      "label": "Modalidad y jornada"
+    },
+    {
+      "id": "b9937e0cbe93955069e2",
+      "label": "ECS"
+    },
+    {
+      "id": "8c69a0c1554a55a90ec4",
+      "label": "Titulación"
+    },
+    {
+      "id": "deed4ca2f00bf9a58680",
+      "label": "Metodología"
+    }
+  ],
+  "sourceYears": {
+    "matricula": [
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "titulados": [
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

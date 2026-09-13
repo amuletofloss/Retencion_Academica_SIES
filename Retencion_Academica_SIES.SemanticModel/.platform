@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Retención Académica SIES"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "0fea7b75-68b5-1677-77a1-f66df1ad9e1f"
+  }
+}

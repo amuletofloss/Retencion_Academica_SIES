@@ -1,0 +1,20 @@
+model Model
+	culture: es-CL
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	discourageImplicitMeasures
+	sourceQueryCulture: es-CL
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_ProTooling = ["DevMode"]
+
+annotation PBI_QueryOrder = ["Seguimiento","Programas","Cohortes","Horizontes","Ruta datos"]
+
+ref table Seguimiento
+ref table Programas
+ref table Cohortes
+ref table Horizontes
+
+ref cultureInfo es-CL
+

@@ -1,0 +1,18 @@
+{
+  "inventory_version": "1.0.0",
+  "project_version": "3.1.0",
+  "files": 182,
+  "bytes": 19388363,
+  "largest_file_bytes": 1821598,
+  "files_over_100_mib": 0,
+  "roles": {
+    "calidad_y_gobierno": 9,
+    "codigo_reproducible": 7,
+    "configuracion_proyecto": 7,
+    "datos_analiticos": 23,
+    "documentacion_entregable": 37,
+    "evidencia_auditoria": 2,
+    "modelo_semantico": 12,
+    "reporte_pbip": 85
+  }
+}

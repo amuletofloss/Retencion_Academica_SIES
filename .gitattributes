@@ -1,0 +1,23 @@
+* text=auto
+
+*.csv text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.mjs text eol=lf
+*.pbip text eol=lf
+*.pbir text eol=lf
+*.pbism text eol=lf
+*.py text eol=lf
+*.tmdl text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+*.gz binary
+*.parquet binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+
+# Git LFS no está habilitado: ningún archivo actual supera 100 MiB.
+# Si la política cambia, documentar la decisión en un ADR antes de habilitar LFS.

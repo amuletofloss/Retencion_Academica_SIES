@@ -1,0 +1,182 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.9.0/schema.json",
+  "name": "78f2898593138b69f347",
+  "position": {
+    "x": 32,
+    "y": 552,
+    "width": 1536,
+    "height": 270,
+    "z": 8,
+    "tabOrder": 8
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "visualContainerObjects": {
+      "general": [
+        {
+          "properties": {
+            "altText": {
+              "expr": {
+                "Literal": {
+                  "Value": "'m-table'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Indicadores recalculados por modalidad y jornada'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Programas"
+                    }
+                  },
+                  "Property": "AmbitoFlexible"
+                }
+              },
+              "queryRef": "Programas.AmbitoFlexible",
+              "nativeQueryRef": "AmbitoFlexible",
+              "displayName": "Ámbito",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Programas"
+                    }
+                  },
+                  "Property": "JornadaOrigen"
+                }
+              },
+              "queryRef": "Programas.JornadaOrigen",
+              "nativeQueryRef": "JornadaOrigen",
+              "displayName": "Jornada",
+              "active": true
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Seguimiento"
+                    }
+                  },
+                  "Property": "N Base"
+                }
+              },
+              "queryRef": "Seguimiento.N Base",
+              "nativeQueryRef": "N Base",
+              "displayName": "Base",
+              "active": true
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Seguimiento"
+                    }
+                  },
+                  "Property": "Tasa Carrera"
+                }
+              },
+              "queryRef": "Seguimiento.Tasa Carrera",
+              "nativeQueryRef": "Tasa Carrera",
+              "displayName": "Académica",
+              "active": true
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Seguimiento"
+                    }
+                  },
+                  "Property": "Tasa Institucion"
+                }
+              },
+              "queryRef": "Seguimiento.Tasa Institucion",
+              "nativeQueryRef": "Tasa Institucion",
+              "displayName": "Institucional",
+              "active": true
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Seguimiento"
+                    }
+                  },
+                  "Property": "Tasa Educacion Superior"
+                }
+              },
+              "queryRef": "Seguimiento.Tasa Educacion Superior",
+              "nativeQueryRef": "Tasa Educacion Superior",
+              "displayName": "Educación superior",
+              "active": true
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "total": [
+        {
+          "properties": {
+            "totals": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "columnHeaders": [
+        {
+          "properties": {
+            "autoSizeColumnWidth": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

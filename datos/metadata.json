@@ -1,0 +1,83 @@
+{
+  "version_metodologica": "3.1.0",
+  "universo": "Pregrado IP+CFT; modalidad No Presencial o Semipresencial o jornada A Distancia; Plan Regular; ingreso de origen en primer semestre",
+  "unidad_principal": "trayectoria MRUN-carrera-institución-cohorte",
+  "mrun": "Identificador enmascarado publicado por SIES; se conserva como texto",
+  "campo_rut": false,
+  "matricula_anios": [
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "titulados_anios": [
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "ecs_ids": [
+    "171",
+    "426"
+  ],
+  "checks": {
+    "filas_seguimiento": 1634184,
+    "trayectorias": 307477,
+    "personas": 283350,
+    "programas_cohorte_modalidad": 3152,
+    "violaciones_orden": 0,
+    "duplicados_fact": 0,
+    "mrun_nulos": 0,
+    "celdas_cohorte_horizonte": 120,
+    "iplacex_conciliacion": 0
+  },
+  "ultimo_periodo": {
+    "cohorte": 2024,
+    "anio_observado": 2025,
+    "base": 41056,
+    "carrera": 26470,
+    "institucion": 27111,
+    "educacion_superior": 29383
+  },
+  "ecs_ultimo_periodo": {
+    "cohorte": 2024,
+    "anio_observado": 2025,
+    "base": 1697,
+    "carrera": 1137,
+    "institucion": 1155,
+    "educacion_superior": 1266
+  },
+  "iplacex_procedencia_2012_2025": {
+    "total": 61905,
+    "sin_matricula_previa": 29751,
+    "con_matricula_previa": 32154,
+    "antecedente_otra_ies": 31448,
+    "antecedente_online_otra_ies": 6618
+  },
+  "iplacex_procedencia_2024_2025": {
+    "total": 27874,
+    "antecedente_otra_ies": 15664,
+    "antecedente_online_otra_ies": 3469
+  }
+}

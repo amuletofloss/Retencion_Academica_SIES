@@ -1,0 +1,98 @@
+table Programas
+	lineageTag: 9bd69628-6d88-4d7c-9c39-c2d091b623a5
+
+	column ProgramaID
+		dataType: string
+		isHidden
+		lineageTag: 5ce53b2b-3d15-4996-86b3-4ed64845b618
+		summarizeBy: none
+		sourceColumn: ProgramaID
+
+	column Cohorte
+		dataType: int64
+		lineageTag: 803207d4-e783-4f82-8a8a-5082df163bb2
+		summarizeBy: none
+		sourceColumn: Cohorte
+
+	column InstitucionID
+		dataType: string
+		isHidden
+		lineageTag: 9c5013d0-836a-4b09-adb4-8e94cbc0d921
+		summarizeBy: none
+		sourceColumn: InstitucionID
+
+	column Institucion
+		dataType: string
+		lineageTag: 230d0c5f-81b2-4cea-9cf7-5cc5f4c99e9b
+		summarizeBy: none
+		sourceColumn: Institucion
+
+	column TipoInstitucion
+		dataType: string
+		lineageTag: 17e7c234-c108-4123-ae38-31784123168f
+		summarizeBy: none
+		sourceColumn: TipoInstitucion
+
+	column CodigoCarrera
+		dataType: string
+		lineageTag: 93e748b6-9c5f-40e3-86dd-f09013c1f064
+		summarizeBy: none
+		sourceColumn: CodigoCarrera
+
+	column Carrera
+		dataType: string
+		lineageTag: a22f33db-e26a-4db1-809f-fd9ab95b76d3
+		summarizeBy: none
+		sourceColumn: Carrera
+
+	column Nivel
+		dataType: string
+		lineageTag: a5e39644-1057-4f58-b21a-76846f6977d4
+		summarizeBy: none
+		sourceColumn: Nivel
+
+	column Area
+		dataType: string
+		lineageTag: c870fc05-ec31-4d2e-84df-3dbef6e84d0c
+		summarizeBy: none
+		sourceColumn: Area
+
+	column ModalidadOrigen
+		dataType: string
+		lineageTag: a728f1fe-00bd-40a0-9db9-d01467137436
+		summarizeBy: none
+		sourceColumn: ModalidadOrigen
+
+	column JornadaOrigen
+		dataType: string
+		lineageTag: aba88c61-0e0e-47e2-a31f-c0a75a856b95
+		summarizeBy: none
+		sourceColumn: JornadaOrigen
+
+	column AmbitoFlexible
+		dataType: string
+		lineageTag: b1806303-19e1-4ab8-bc46-8fe931db0e71
+		summarizeBy: none
+		sourceColumn: AmbitoFlexible
+
+	column GrupoECS
+		dataType: string
+		lineageTag: 1909852e-1b38-4916-91e1-bdf0a635c4e2
+		summarizeBy: none
+		sourceColumn: GrupoECS
+
+	column RegistrosOrigen
+		dataType: int64
+		lineageTag: 116f7bb6-fc06-4044-8640-dd749f5c93cd
+		summarizeBy: none
+		sourceColumn: RegistrosOrigen
+
+	partition Programas = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(#"Ruta datos" & "/programas.csv"), [Delimiter=";", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Types = Table.TransformColumnTypes(Headers,{{"ProgramaID",type text},{"Cohorte",Int64.Type},{"InstitucionID",type text},{"Institucion",type text},{"TipoInstitucion",type text},{"CodigoCarrera",type text},{"Carrera",type text},{"Nivel",type text},{"Area",type text},{"ModalidadOrigen",type text},{"JornadaOrigen",type text},{"AmbitoFlexible",type text},{"GrupoECS",type text},{"RegistrosOrigen",Int64.Type}},"en-US")
+				in Types
+

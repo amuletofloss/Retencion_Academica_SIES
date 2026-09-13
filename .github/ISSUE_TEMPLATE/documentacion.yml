@@ -1,0 +1,30 @@
+name: Mejora de documentación
+description: Corregir una definición, vínculo, ejemplo o falta de trazabilidad.
+title: "[Docs]: "
+labels: ["documentation"]
+body:
+  - type: input
+    id: documento
+    attributes:
+      label: Documento o ruta
+      placeholder: docs/02-modelo-semantico.md
+    validations:
+      required: true
+  - type: dropdown
+    id: tipo
+    attributes:
+      label: Tipo de problema
+      options:
+        - Contradicción con el PBIP
+        - Definición ambigua
+        - Información faltante
+        - Enlace o diagrama roto
+        - Mejora editorial
+    validations:
+      required: true
+  - type: textarea
+    id: detalle
+    attributes:
+      label: Evidencia y corrección propuesta
+    validations:
+      required: true

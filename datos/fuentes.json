@@ -1,0 +1,239 @@
+{
+  "portal": "https://centroestudios.mineduc.cl/datos-abiertos/",
+  "matricula": "corte anual al 30 de abril",
+  "titulados": "registros informados por año",
+  "archivos": [
+    {
+      "fuente": "matricula",
+      "anio": 2011,
+      "archivo_oficial": "20250729_Matrícula_Ed_Superior_2011_PUBL_MRUN.csv",
+      "filas": 1066343,
+      "bytes": 611441647,
+      "sha256": "41D5C687359991EAEA95D0B3AD336F202DCC8E54F0C9C1A095B75F009B25F25F"
+    },
+    {
+      "fuente": "matricula",
+      "anio": 2012,
+      "archivo_oficial": "20250729_Matrícula_Ed_Superior_2012_PUBL_MRUN.csv",
+      "filas": 1124233,
+      "bytes": 649828213,
+      "sha256": "44B3B32AEC3DF4404B0F6391636E6DC24D41DF448AFF79D95F11512C79DF1FEB"
+    },
+    {
+      "fuente": "matricula",
+      "anio": 2013,
+      "archivo_oficial": "20250729_Matrícula_Ed_Superior_2013_PUBL_MRUN.csv",
+      "filas": 1184371,
+      "bytes": 680038640,
+      "sha256": "8973383BAF4E2896FE3A60B7FF9715FD03193AE3B82DC74AC37068C988F73BE5"
+    },
+    {
+      "fuente": "matricula",
+      "anio": 2014,
+      "archivo_oficial": "20250729_Matrícula_Ed_Superior_2014_PUBL_MRUN.csv",
+      "filas": 1215130,
+      "bytes": 703614068,
+      "sha256": "BCB02D0B0806C805F1637AE0FA540E8F000B549F94C03D67097AD1348631C243"
+    },
+    {
+      "fuente": "matricula",
+      "anio": 2015,
+      "archivo_oficial": "20250729_Matrícula_Ed_Superior_2015_PUBL_MRUN.csv",
+      "filas": 1233043,
+      "bytes": 766526866,
+      "sha256": "6D914552C975B5A19EAEA9841B09522ABEF1F883C867E17B062C76EF6DD0EBF9"
+    },
+    {
+      "fuente": "matricula",
+      "anio": 2016,
+      "archivo_oficial": "20250729_Matrícula_Ed_Superior_2016_PUBL_MRUN.csv",
+      "filas": 1247178,
+      "bytes": 778411889,
+      "sha256": "69BB5D1A713B89BCB3D524AD270D66186CD680E0EB5977F40013A2C1E8AAF255"
+    },
+    {
+      "fuente": "matricula",
+      "anio": 2017,
+      "archivo_oficial": "20250729_Matrícula_Ed_Superior_2017_PUBL_MRUN.csv",
+      "filas": 1248293,
+      "bytes": 781288717,
+      "sha256": "392EA6CD6E87E9E8FB273AF6B0BE4AB15A1F99E548363C9ABBDC39FBF0E4B115"
+    },
+    {
+      "fuente": "matricula",
+      "anio": 2018,
+      "archivo_oficial": "20250729_Matrícula_Ed_Superior_2018_PUBL_MRUN.csv",
+      "filas": 1262334,
+      "bytes": 796781718,
+      "sha256": "85F9FA31DC896D00370BCA5BAF13FCEECF7370EE3D0768A2A8EC3840E1DA6CD8"
+    },
+    {
+      "fuente": "matricula",
+      "anio": 2019,
+      "archivo_oficial": "20250729_Matrícula_Ed_Superior_2019_PUBL_MRUN.csv",
+      "filas": 1268483,
+      "bytes": 801900502,
+      "sha256": "525AE6A54EC53D7C5DD9812033AE029C3CC15BFDA83442A389940C68A8FEC1B8"
+    },
+    {
+      "fuente": "matricula",
+      "anio": 2020,
+      "archivo_oficial": "20250729_Matrícula_Ed_Superior_2020_PUBL_MRUN.csv",
+      "filas": 1220898,
+      "bytes": 772007622,
+      "sha256": "7D1A924C990CF4FEE2D32C4E435F13FB318FFF77E49D420EF09D15AAC3DE3FE2"
+    },
+    {
+      "fuente": "matricula",
+      "anio": 2021,
+      "archivo_oficial": "20250729_Matrícula_Ed_Superior_2021_PUBL_MRUN.csv",
+      "filas": 1294701,
+      "bytes": 818754832,
+      "sha256": "EF577F61B18D32107AB633FEE15B54B72B0ADCA68B4CE56ED98E6F2A4BA1B621"
+    },
+    {
+      "fuente": "matricula",
+      "anio": 2022,
+      "archivo_oficial": "20250729_Matrícula_Ed_Superior_2022_PUBL_MRUN.csv",
+      "filas": 1304147,
+      "bytes": 842557600,
+      "sha256": "3C377C18C35128881B96C9C38C3AB2DD7240CAB2CF888C3DECE343E7CC4AAB01"
+    },
+    {
+      "fuente": "matricula",
+      "anio": 2023,
+      "archivo_oficial": "20250729_Matrícula_Ed_Superior_2023_PUBL_MRUN.csv",
+      "filas": 1341446,
+      "bytes": 866932015,
+      "sha256": "863E142855FF1C3477D0AE72AEB791C9AE20047B9E9290FA28E38BD5A745EC33"
+    },
+    {
+      "fuente": "matricula",
+      "anio": 2024,
+      "archivo_oficial": "20250729_Matrícula_Ed_Superior_2024_PUBL_MRUN.csv",
+      "filas": 1386085,
+      "bytes": 897968721,
+      "sha256": "B5D9D041409C33BAA6A8F115EE35EC7637C876C0C8668294A3B82ED9A4FE906B"
+    },
+    {
+      "fuente": "matricula",
+      "anio": 2025,
+      "archivo_oficial": "20250729_Matrícula_Ed_Superior_2025_PUBL_MRUN.csv",
+      "filas": 1455612,
+      "bytes": 946623998,
+      "sha256": "7D051F91517CB2CBE772C79A98C3ABF79035EC8FC3DB914AEC12649850E775A4"
+    },
+    {
+      "fuente": "titulados",
+      "anio": 2011,
+      "archivo_oficial": "20250718_Titulados_Ed_Superior_2011_WEB.csv",
+      "filas": 136408,
+      "bytes": 76359326,
+      "sha256": "FD31BC59059F05E1BFB63A04FED5186753F60168BC68250D983315A38479FA94"
+    },
+    {
+      "fuente": "titulados",
+      "anio": 2012,
+      "archivo_oficial": "20250718_Titulados_Ed_Superior_2012_WEB.csv",
+      "filas": 156000,
+      "bytes": 87548593,
+      "sha256": "04D81E979B25D87887366B54D7C51011664781F3D5F68E9E86039C6FBFE4D720"
+    },
+    {
+      "fuente": "titulados",
+      "anio": 2013,
+      "archivo_oficial": "20250718_Titulados_Ed_Superior_2013_WEB.csv",
+      "filas": 182179,
+      "bytes": 101857735,
+      "sha256": "63448DC83611CC82969379B778E49DBB9D3332115A8DEBC5CD1BFFE6CEFA64EB"
+    },
+    {
+      "fuente": "titulados",
+      "anio": 2014,
+      "archivo_oficial": "20250718_Titulados_Ed_Superior_2014_WEB.csv",
+      "filas": 197558,
+      "bytes": 110344198,
+      "sha256": "2450ED32C251C176A1459D212D14CF58C628474BE562C5DF48ABA79725EBD651"
+    },
+    {
+      "fuente": "titulados",
+      "anio": 2015,
+      "archivo_oficial": "20250718_Titulados_Ed_Superior_2015_WEB.csv",
+      "filas": 216587,
+      "bytes": 120984032,
+      "sha256": "A23D3AE309087F6098A45F1F1B68FE9C413637BA8C6166B11AFCCE2EA292533A"
+    },
+    {
+      "fuente": "titulados",
+      "anio": 2016,
+      "archivo_oficial": "20250718_Titulados_Ed_Superior_2016_WEB.csv",
+      "filas": 230506,
+      "bytes": 129506401,
+      "sha256": "F5B6B56732DC56BF2D36B31A9D296146A333CF01BF574E8170201D01232EAA37"
+    },
+    {
+      "fuente": "titulados",
+      "anio": 2017,
+      "archivo_oficial": "20250718_Titulados_Ed_Superior_2017_WEB.csv",
+      "filas": 244006,
+      "bytes": 137199552,
+      "sha256": "8F552D1801D01B57594B7103C48E88EDC8E6BB3BD826D02C353C1FD2AB14357D"
+    },
+    {
+      "fuente": "titulados",
+      "anio": 2018,
+      "archivo_oficial": "20250718_Titulados_Ed_Superior_2018_WEB.csv",
+      "filas": 250349,
+      "bytes": 142289876,
+      "sha256": "B1F69CE4967B4F8CD7C66227B0DD0F75AD7E0C6C79DF304916E341524CADD1A1"
+    },
+    {
+      "fuente": "titulados",
+      "anio": 2019,
+      "archivo_oficial": "20250718_Titulados_Ed_Superior_2019_WEB.csv",
+      "filas": 246619,
+      "bytes": 141149478,
+      "sha256": "113BA277D908E02A46523E19E04B6A1521E72FF6ABD2C09116491E7F4505C11F"
+    },
+    {
+      "fuente": "titulados",
+      "anio": 2020,
+      "archivo_oficial": "20250718_Titulados_Ed_Superior_2020_WEB.csv",
+      "filas": 203597,
+      "bytes": 118023901,
+      "sha256": "33D7DD08E4150733F7592835DE1F3F85406BC37A86C16A57EE6EB1254E0DB11A"
+    },
+    {
+      "fuente": "titulados",
+      "anio": 2021,
+      "archivo_oficial": "20250718_Titulados_Ed_Superior_2021_WEB.csv",
+      "filas": 281489,
+      "bytes": 160654812,
+      "sha256": "B960682A93E1ABE8E7191B1E6B4F35B9CD301ED321989737AA5945DD2AAC0B02"
+    },
+    {
+      "fuente": "titulados",
+      "anio": 2022,
+      "archivo_oficial": "20250718_Titulados_Ed_Superior_2022_WEB.csv",
+      "filas": 291453,
+      "bytes": 166280924,
+      "sha256": "8185B78F548E5A6BA34AE55F397BDF0F2D54615E77095F560CF06C52ADDE620C"
+    },
+    {
+      "fuente": "titulados",
+      "anio": 2023,
+      "archivo_oficial": "20250718_Titulados_Ed_Superior_2023_WEB.csv",
+      "filas": 299796,
+      "bytes": 171340382,
+      "sha256": "1DDFD36AA2A6EBA53B6F80D2E09D13DE9561BA201A6665A9DAB737B03AD6D275"
+    },
+    {
+      "fuente": "titulados",
+      "anio": 2024,
+      "archivo_oficial": "20250718_Titulados_Ed_Superior_2024_WEB.csv",
+      "filas": 302730,
+      "bytes": 173414315,
+      "sha256": "008F5506125E2CD6D2029F4262E607552E5D1FA94A38097318EF9E9CF5C142BB"
+    }
+  ]
+}

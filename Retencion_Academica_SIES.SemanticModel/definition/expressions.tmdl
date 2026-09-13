@@ -1,0 +1,5 @@
+expression 'Ruta datos' = "__RUTA_DATOS_ABSOLUTA__" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: d599ac41-2bbf-4bb6-bf06-a755653a9bc1
+
+	annotation PBI_ResultType = Text
+

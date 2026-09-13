@@ -1,0 +1,50 @@
+name: Calidad o discrepancia de datos
+description: Reportar una diferencia de cobertura, definición, fuente o resultado.
+title: "[Datos]: "
+labels: ["data-quality", "triage"]
+body:
+  - type: input
+    id: corte
+    attributes:
+      label: Corte de datos
+      placeholder: matrícula 2025 / titulados 2024
+    validations:
+      required: true
+  - type: input
+    id: contexto
+    attributes:
+      label: Cohorte, horizonte y ámbito
+      placeholder: cohorte 2024, horizonte 2, IP+CFT o ECS
+    validations:
+      required: true
+  - type: dropdown
+    id: unidad
+    attributes:
+      label: Unidad
+      options:
+        - Trayectorias
+        - Personas MRUN
+        - Programas
+        - Otra
+    validations:
+      required: true
+  - type: textarea
+    id: diferencia
+    attributes:
+      label: Diferencia encontrada
+      description: Incluya fórmula, valor esperado, observado y fuente de comparación.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduccion
+    attributes:
+      label: Consulta o pasos de reproducción
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacidad
+    attributes:
+      label: Privacidad
+      options:
+        - label: No adjunté RUT, secretos ni datos no públicos.
+          required: true

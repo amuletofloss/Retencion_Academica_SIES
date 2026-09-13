@@ -1,0 +1,127 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.9.0/schema.json",
+  "name": "8365a87af189d7b42a2d",
+  "position": {
+    "x": 792,
+    "y": 392,
+    "width": 776,
+    "height": 360,
+    "z": 11,
+    "tabOrder": 11
+  },
+  "visual": {
+    "visualType": "lineChart",
+    "visualContainerObjects": {
+      "general": [
+        {
+          "properties": {
+            "altText": {
+              "expr": {
+                "Literal": {
+                  "Value": "'r-trend'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Evolución por cohorte'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Cohortes"
+                    }
+                  },
+                  "Property": "Cohorte"
+                }
+              },
+              "queryRef": "Cohortes.Cohorte",
+              "nativeQueryRef": "Cohorte",
+              "displayName": "Cohorte",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Seguimiento"
+                    }
+                  },
+                  "Property": "Tasa Carrera"
+                }
+              },
+              "queryRef": "Seguimiento.Tasa Carrera",
+              "nativeQueryRef": "Tasa Carrera",
+              "displayName": "Académica",
+              "active": true
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Seguimiento"
+                    }
+                  },
+                  "Property": "Tasa Institucion"
+                }
+              },
+              "queryRef": "Seguimiento.Tasa Institucion",
+              "nativeQueryRef": "Tasa Institucion",
+              "displayName": "Institucional",
+              "active": true
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Seguimiento"
+                    }
+                  },
+                  "Property": "Tasa Educacion Superior"
+                }
+              },
+              "queryRef": "Seguimiento.Tasa Educacion Superior",
+              "nativeQueryRef": "Tasa Educacion Superior",
+              "displayName": "Educación superior",
+              "active": true
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

@@ -1,0 +1,38 @@
+# Estado local de Power BI Desktop
+.pbi/
+**/.pbi/
+**/*.abf
+**/*.lock
+
+# Fuentes brutas y resultados reconstruibles
+datos_fuente/
+artifacts/
+validacion_local/
+powerbi_*.png
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node y herramientas
+node_modules/
+coverage/
+
+# Secretos y configuración local
+.env
+.env.*
+!.env.example
+*.local.json
+*.log
+*.tmp
+*.bak
+
+# Editores y sistema operativo
+.idea/
+.vscode/settings.json
+.DS_Store
+Thumbs.db

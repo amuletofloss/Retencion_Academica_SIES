@@ -1,0 +1,12 @@
+relationship a1192b1a-dad4-950d-8ad8-f0ca85b00f08
+	fromColumn: Seguimiento.ProgramaID
+	toColumn: Programas.ProgramaID
+
+relationship fa145039-759a-6bf5-c891-fb54bdb796a5
+	fromColumn: Seguimiento.Cohorte
+	toColumn: Cohortes.Cohorte
+
+relationship 16043e60-d770-7b42-54f5-3a09094992fe
+	fromColumn: Seguimiento.AnioDesdeIngreso
+	toColumn: Horizontes.AnioDesdeIngreso
+
