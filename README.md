@@ -94,16 +94,6 @@ Para la cohorte 2024 observada en 2025, el universo completo contiene 41.056 tra
 
 Las cifras se generan desde los CSV incluidos y se concilian con `datos/resultados_control.csv`.
 
-## Estado conocido
-
-- [OK] Versión 3.1.0 con un solo PBIP, 7 páginas y 73 visuales únicos.
-- [OK] Auditoría numérica: 4.955 de 4.955 controles aprobados y 120 celdas cohorte–horizonte conciliadas.
-- [OK] Cohorte y horizonte son de selección única y las medidas rechazan contextos ambiguos.
-- [OK] Procedencia IPLACEX auditada en [AUDITORIA_NUMERICA_COMPLETA.md](AUDITORIA_NUMERICA_COMPLETA.md) y en el PDF V2.
-- [FALTA] Confirmar responsables GitHub y destino de despliegue.
-
-No se debe declarar una versión liberada como validada hasta completar el checklist de [docs/11-checklists.md](docs/11-checklists.md).
-
 ## Gobierno y contribución
 
 - [CONTRIBUTING.md](CONTRIBUTING.md): ramas, commits, revisión y definición de terminado.
