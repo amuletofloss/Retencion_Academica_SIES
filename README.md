@@ -99,7 +99,6 @@ Las cifras se generan desde los CSV incluidos y se concilian con `datos/resultad
 - [CONTRIBUTING.md](CONTRIBUTING.md): ramas, commits, revisión y definición de terminado.
 - [SECURITY.md](SECURITY.md): manejo de datos, secretos y reporte de vulnerabilidades.
 - [LICENCIA_DATOS.md](LICENCIA_DATOS.md): procedencia y condiciones de los datos derivados.
-- [INFORME_VICERRECTOR_ECS.md](INFORME_VICERRECTOR_ECS.md): lectura ejecutiva para la ECS.
 - [docs/10-adr/](docs/10-adr/): decisiones de arquitectura.
 
 No se requiere Git LFS en el estado actual: ningún archivo versionado supera 100 MiB. Esta decisión debe revisarse si cambia el tamaño o la política de datos.
